@@ -20,10 +20,11 @@ let theme = () =>{
     }
 }
 
-
-
-
 btnDark.addEventListener("click", theme);
+
+//===========================================================//
+var scroll = new SmoothScroll('a[href*="#"]'); // smooth scroll
+//===========================================================//
 
 
 
